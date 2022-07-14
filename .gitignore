@@ -21,3 +21,9 @@ pnpm-debug.log*
 *.njsproj
 *.sln
 *.sw?
+
+#Electron-builder output
+/dist_electron
+
+#不需要同步的文件
+*.svg
