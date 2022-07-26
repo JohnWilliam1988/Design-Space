@@ -1,0 +1,72 @@
+body {
+  font-size: 14px;
+  color: #333;
+  min-height: 100vh;
+}
+*,
+:after,
+:before {
+  box-sizing: border-box;
+}
+*,
+:after,
+:before {
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+html,
+body,
+p,
+ul,
+li,
+ol,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+ul,
+li,
+ol {
+  list-style: none;
+}
+em {
+  font-style: normal;
+}
+i {
+  font-style: normal;
+}
+#path-list > div {
+  margin-top: 10px;
+  position: relative;
+}
+#path-list {
+  padding-left: 10px;
+}
+#path-list p {
+  margin-top: 5px;
+  padding-bottom: 4px;
+}
+#path-list select {
+  margin-bottom: 10px;
+  border-radius: 0;
+  width: 120px;
+  height: 30px;
+}
+#path-list .index {
+  position: absolute;
+  color: white;
+  font-weight: bold;
+  font-size: 40px;
+  text-shadow: 2px 2px 4px #000000;
+  left: 45px;
+  top: 30px;
+}

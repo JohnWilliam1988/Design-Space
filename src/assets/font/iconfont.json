@@ -1,0 +1,16 @@
+{
+  "id": "3493910",
+  "name": "Editor",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "659146",
+      "name": "ic_menu_more",
+      "font_class": "icmenumore",
+      "unicode": "e62d",
+      "unicode_decimal": 58925
+    }
+  ]
+}
