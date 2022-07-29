@@ -178,7 +178,9 @@ export default {
             +transformValue[4],
             +transformValue[5]
           )
+          .scale(12 / 6.25, 12 / 6.25) //这里还要纠正回正常的切割大小 屏幕画布大小跟实际大小比例关系为 12 ：6.25 //6.25 =（600 * 1 / 96）
           .encode();
+
         currentPath = pathDataResult;
         console.log("pathDataResult" + pathDataResult);
         // obj.path=pathDataResult;
@@ -208,7 +210,12 @@ export default {
       // newpath.lockRotation = true;
       // newpath.hasBorders = false;
       // newpath.hasControls = false;
-      newpath.scale(newpath.width / 600, newpath.height / 600);
+      //空间实际大小对应关系：
+      //按照1像素对应 1/96 inc
+      //600X600画布定义为12incX12inc
+      //（600 X 1 / 96）
+
+      newpath.scale(6.25 / 12, 6.25 / 12);
       this.fabricCanvas.add(newpath);
     },
   },

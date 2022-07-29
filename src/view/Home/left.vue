@@ -62,9 +62,6 @@ export default {
     make(obj) {
       console.log(this.currentPath,'当前路径')
       console.log("PATH is " + this.path[this.active]);
-      var oldPath = "m0,0l120,0l0,100l-120,0l0,-100z";
-      var newPath = "m0,0.5l205,0.5l205.5,100.5l0,100.5l0,0.5z";
-
   
       axios
         .post(
